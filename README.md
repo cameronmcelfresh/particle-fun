@@ -22,23 +22,27 @@ This simulation generates a series of 30 particles bouncing between one another.
 num_particles = 30\
 box_size = 10\
 total_time = 1000\
-time_step = 0.01\
-particle_radius = 0.5\
+time_step = 0.02\
+particle_radius = 0.5
 
 particleSimulate(num_particles, box_size, total_time, time_step, particle_radius)
 
 #### Output
 
+![Bpuncing Particles](https://github.com/cameronmcelfresh/particle-fun/blob/master/bouncing_particles.html)
+
+
+
 **Example 2: Randomized falling particles**
 This simulation generates a series of 40 particles "falling" from an initialized state. Here, the resulting video is also saved.
 #### Input
-num_particles = 40\
+num_particles = 30\
 box_size = 10\
 total_time = 1000\
-time_step = 0.02\
-particle_radius = 0.5\
+time_step = 0.01\
+particle_radius = 0.5
 
-particleSimulate(num_particles, box_size, total_time, time_step, particle_radius, grav = True, save = True)
+particleSimulate(num_particles, box_size,  total_time,  time_step,  particle_radius,  grav = True,  save = True)
 
 #### Output
 
