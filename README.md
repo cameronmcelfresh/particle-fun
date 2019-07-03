@@ -29,8 +29,7 @@ particleSimulate(num_particles, box_size, total_time, time_step, particle_radius
 
 #### Output
 
-<video src="https://github.com/cameronmcelfresh/particle-fun/blob/master/falling_particles.gif" width="320" height="200" controls preload></video>
-
+![](https://github.com/cameronmcelfresh/particle-fun/blob/master/falling_particles.gif)
 
 
 **Example 2: Randomized falling particles**
