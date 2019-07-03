@@ -1,4 +1,4 @@
-#Particle-fun
+# Particle-fun
 Easy to use visualization of random or gravity-driven particle movement with elastic interactions
 
 ## Getting Started
@@ -16,27 +16,27 @@ particle_core.py contains all necessary functions and classes to run the simulat
 Below are two examples of possible out-of-the-box simulations. It is recommended that the time_step remains sufficiently low such particle bouncing does not "explode"
 Similarly, when do "falling particles" simulations it is recommended that the total_time is not set too high such that settled particles do not get caught in infinite bouncing loops with the x-plane.
 
-** Example 1: Randomized bouncing particles **
+**Example 1: Randomized bouncing particles**
 This simulation generates a series of 30 particles bouncing between one another.
 #### Input
-num_particles = 30/
-box_size = 10/
-total_time = 1000/
-time_step = 0.01/
-particle_radius = 0.5/
+num_particles = 30\
+box_size = 10\
+total_time = 1000\
+time_step = 0.01\
+particle_radius = 0.5\
 
 particleSimulate(num_particles, box_size, total_time, time_step, particle_radius)
 
 #### Output
 
-** Example 2: Randomized falling particles **
+**Example 2: Randomized falling particles**
 This simulation generates a series of 40 particles "falling" from an initialized state. Here, the resulting video is also saved.
 #### Input
-num_particles = 40/
-box_size = 10/
-total_time = 1000/
-time_step = 0.02/
-particle_radius = 0.5/
+num_particles = 40\
+box_size = 10\
+total_time = 1000\
+time_step = 0.02\
+particle_radius = 0.5\
 
 particleSimulate(num_particles, box_size, total_time, time_step, particle_radius, grav = True, save = True)
 
