@@ -11,6 +11,10 @@ the particles experience an inelastic collision with the x-plane.
 
 particle_core.py contains all necessary functions and classes to run the simulations. 
 
+*This repository utilizes ipyvolume, which to the best of my knowledge is only available using Jupyter notebook. The code will not run if you do not use a system that is compatible with ipyvolume.*
+
+An easy way to do this if you're working with a non-compatible system is to use a site such as Cocalc - ensuring that you are using the classic notebook setup. https://cocalc.com/
+
 ## Simulating Particles
 
 Below are two examples of possible out-of-the-box simulations. It is recommended that the time_step remains sufficiently low such particle bouncing does not "explode"
