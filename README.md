@@ -18,7 +18,7 @@ An easy way to do this if you're working with a non-compatible system is to use 
 ## Simulating Particles
 
 Below are two examples of possible out-of-the-box simulations. It is recommended that the time_step remains sufficiently low such particle bouncing does not "explode"
-Similarly, when do "falling particles" simulations it is recommended that the total_time is not set too high such that settled particles do not get caught in infinite bouncing loops with the x-plane.
+Similarly, when running "falling particles" simulations it is recommended that the total_time is not set too high such that settled particles do not get caught in infinite bouncing loops with the x-plane.
 
 **Example 1: Randomized bouncing particles**\
 This simulation generates a series of 30 particles bouncing between one another.
@@ -50,9 +50,3 @@ particleSimulate(num_particles, box_size,  total_time,  time_step,  particle_rad
 #### Output
 
 ![](https://github.com/cameronmcelfresh/particle-fun/blob/master/falling_particles.gif)
-
-
-## Building More Complex Simulations
-
-
-## Assumptions of Current Model
