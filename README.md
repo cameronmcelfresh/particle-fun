@@ -50,3 +50,10 @@ particleSimulate(num_particles, box_size,  total_time,  time_step,  particle_rad
 #### Output
 
 ![](https://github.com/cameronmcelfresh/particle-fun/blob/master/falling_particles.gif)
+
+## Extending The Simulation
+
+Some very simple modifications could be introducted to the current skeleton to explore or visualize different processes. Those include but are not limited to:
+  - Adding attractive potentials between particles
+  - Specifying particles of varying mass
+  - Coagulation of particles to form larger networks or droplets
