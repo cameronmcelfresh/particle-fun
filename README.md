@@ -1,5 +1,5 @@
 # Particle-fun
-Easy to use visualization of random or gravity-driven particle movement with elastic interactions
+Easy-to-use visualization of random or gravity-driven particle movement with elastic interactions
 
 ## Getting Started
 This repository contains the building blocks to make a visualzied 3D multiparticle simulation. Particle movement is initially
@@ -54,6 +54,6 @@ particleSimulate(num_particles, box_size,  total_time,  time_step,  particle_rad
 ## Extending The Simulation
 
 Some very simple modifications could be introducted to the current skeleton to explore or visualize different processes. Those include but are not limited to:
-  - Adding attractive potentials between particles
+  - Adding attractive potentials between particles (molecular dynamics)
   - Specifying particles of varying mass
   - Coagulation of particles to form larger networks or droplets
